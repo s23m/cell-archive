@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.s23m.cell.eclipse.search.widget' version='1.0.0'>
+    <update id='org.s23m.cell.eclipse.search.widget' range='[0.0.0,1.0.0)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='org.s23m.cell.eclipse.search.widget'/>
+      <property name='maven-groupId' value='org.s23m.cell'/>
+      <property name='maven-artifactId' value='org.s23m.cell.eclipse.search.widget'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.s23m.cell.eclipse.search.widget' version='1.0.0'/>
+      <provided namespace='osgi.bundle' name='org.s23m.cell.eclipse.search.widget' version='1.0.0'/>
+      <provided namespace='java.package' name='org.s23m.cell.eclipse.search.widget' version='0.0.0'/>
+      <provided namespace='java.package' name='org.s23m.cell.eclipse.search.widget.editors' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='12'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.s23m.cell.repository' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.s23m.cell.kernel' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.s23m.cell.eclipse.visualization.containmenttree' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.s23m.cell.serialization' range='1.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.s23m.cell.eclipse.search.widget' version='1.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.s23m.cell.eclipse.search.widget; singleton:=true&#xA;Bundle-Version: 1.0.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

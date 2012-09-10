@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="1778260975"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.eclipse.search.widget:eclipse-plugin:1.0.0</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1434088927"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.statistics:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="1434088927"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-840672467"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.eclipse.visualization.containmenttree:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="-840672467"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="363972180"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.repository:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="363972180"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1539904383"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.eclipse.connector.database:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="1539904383"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-235759177"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.common:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="-235759177"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="182615559"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.objectpool:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="182615559"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-1822960995"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.repository.client:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="-1822960995"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-726510184"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.hibernateosgi:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="-726510184"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1091925536"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.serialization:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="1091925536"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="32013239"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.connector:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="32013239"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-2059911552"><data key="d0"><y:ShapeNode><y:NodeLabel>org.s23m.cell:org.s23m.cell.artifactpool:eclipse-plugin:1.0.0:provided</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1778260975" target="-2059911552"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>provided</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>

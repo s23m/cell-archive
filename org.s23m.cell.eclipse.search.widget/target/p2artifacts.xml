@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.s23m.cell.eclipse.search.widget' version='1.0.0'>
+    <properties size='6'>
+      <property name='artifact.size' value='19437'/>
+      <property name='download.size' value='19437'/>
+      <property name='download.md5' value='211172ccda4e29a71060e3165aad98df'/>
+      <property name='maven-groupId' value='org.s23m.cell'/>
+      <property name='maven-artifactId' value='org.s23m.cell.eclipse.search.widget'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+  </artifact>
+</artifacts>
