@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.s23m.cell.eclipse.connector.database.db2' version='1.0.0'>
+    <properties size='6'>
+      <property name='artifact.size' value='3138926'/>
+      <property name='download.size' value='3138926'/>
+      <property name='download.md5' value='3398d1cabfe50922dca6c4bf1890b3c1'/>
+      <property name='maven-groupId' value='org.s23m.cell'/>
+      <property name='maven-artifactId' value='org.s23m.cell.eclipse.connector.database.db2'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+  </artifact>
+</artifacts>
